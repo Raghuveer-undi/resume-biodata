@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #eef2f3, #8e9eab);
+            color: #0c0c0c;
+        }
+        header {
+            background-color: #0223f9a5;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 4px solid #000000;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 1.5rem;
+        }
+        nav ul li a {
+            color: rgb(233, 228, 228);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #000000;
+        }
+        .intro {
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+            color: #000000;
+        }
+        .section {
+            margin: 2rem 0;
+            font-size: 1.1rem;
+            color: #1a1919;
+            padding: 2rem;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #021bbda5;
+            font-size: 1.6rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #8d93ab;
+            padding-bottom: 0.5rem;
+        }
+        .skills ul, .projects ul, .education ul {
+            padding: 0;
+            list-style: none;
+        }
+        .skills ul li, .projects ul li, .education ul li {
+            margin: 0.5rem 0;
+        }
+        .image-container {
+            margin: 2rem auto;
+            text-align: center;
+        }
+        .image-container img {
+            width: 250px;
+            height: auto;
+            border-radius:100%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #24318f;
+            color: white;
+            margin-top: 2rem;
+            border-top: 4px solid #e8e9ef;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Profile</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="biodata.html">Bio-data</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="image-container">
+            <img src="pic.jpg" alt="Professional Photo">
+        </div>
+        
+        <p class="intro">
+            Hello! I'm <strong>MR.RAGHUVEER.D.U</strong>, a passionate web developer with a strong focus on creating engaging, user-friendly websites. Explore my work and get in touch!
+        </p>
+
+        <!-- Skills Section -->
+        <section class="skills section">
+            <h2>Skills</h2>
+            <ul>
+                <li><strong>HTML, CSS, JavaScript</strong></li>
+                <li><strong>React.js, Node.js</strong></li>
+                <li><strong>Git, GitHub, REST APIs</strong></li>
+                <li><strong>Responsive Web Design</strong></li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Personal Portfolio</strong> - A portfolio website showcasing my skills and projects.</li>
+                <li><strong>Weather App</strong> - A web app fetching real-time weather data from an API.</li>
+                <li><strong>Task Manager</strong> - A full-stack app to manage tasks, built with React and Node.js.</li>
+            </ul>
+        </section>
+
+        
+        <!-- Contact Section -->
+        <section class="contact section">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong>raghu@gmail.com</p>
+            <p><strong>Phone:</strong>+91 896</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Raghuveer.D.U</p>
+    </footer>
+</body>
+</html>
